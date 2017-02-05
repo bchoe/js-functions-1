@@ -1,6 +1,6 @@
 /*
 * A function is a block of code (a series of instructions) designed to execute a certain task. Functions allow you to reuse code.
- 
+
 * i.e. A function to generate a greeting to specific person you designate:*/
 
 // Step One: Define the function.
@@ -10,7 +10,7 @@ function greeting(guest){ // takes in a parameter named 'guest' which acts like 
 greeting("Mr. Smith"); // invoking or calling the function to execute the code (instructions) inside the function.
 
 // Step Two: Assign the function invocation to a variable.
-var testGreeting = greeting("Mr. Smith"); // assigning the function call into a variable 
+var testGreeting = greeting("Mr. Smith"); // assigning the function call into a variable
 
 // Step Three: Console.log the variable to test function output!
 console.log(testGreeting); // printing the output value of the function.
@@ -25,20 +25,20 @@ console.log(testGreeting); // printing the output value of the function.
  *   @variable Datatype: Number `bango2`
  *
  * These two variables will be used to invoke the functions #2 - #5.
-*/ 
-
-
+*/
+var bango1 = 6;
+var bango2 = 9;
 
 /*
  * #2
  * Function - add
  * Create a function named `add` which will take two parameters: `num1` and `num2`.
- * 
+ *
  *    @param Datatype: Number `num1`
  *    @param Datatype: Number `num2`
  *    @return Datatype: Number
  *
- * This function will add two numbers (the parameters, `num1` and `num2`) and 
+ * This function will add two numbers (the parameters, `num1` and `num2`) and
  * return the sum of these two numbers.
  * Invoke the function and assign it to a variable named `sum`.
  * Console.log `sum` to test your code.
@@ -58,7 +58,7 @@ console.log(testGreeting); // printing the output value of the function.
  * This function will subtract two numbers and return the difference of these two numbers.
  * Invoke the function and assign it to a variable named `difference`.
  * Console.log `difference` to test your code.
-*/ 
+*/
 
 
 
@@ -102,7 +102,7 @@ console.log(testGreeting); // printing the output value of the function.
  *   @param Datatype: Number `x`
  *   @return Datatype: String
  *
- * This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value when you invoke the function. Invoke this function using the variable `sum`. 
+ * This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value when you invoke the function. Invoke this function using the variable `sum`.
  * Console.log your result.
 */
 
@@ -118,7 +118,7 @@ console.log(testGreeting); // printing the output value of the function.
  *
  * This function will return the string "Last night I dreamt that I ate `x` Taco Bell soft tacos."  Where `x` is the value when you invoke the function. Invoke this function using the variable `difference`.
  * Console.log your results.
-*/ 
+*/
 
 
 
@@ -130,7 +130,7 @@ console.log(testGreeting); // printing the output value of the function.
  *    @return Datatype: Number
  *
  * This function will multiply the values stored in the sum and product.
- * Console.log your result.  
+ * Console.log your result.
 */
 
 
@@ -143,7 +143,7 @@ console.log(testGreeting); // printing the output value of the function.
  *    @return Datatype: Number
  *
  * This function will multiply the values stored in the product and quotient.
- * Console.log your result.  
+ * Console.log your result.
 */
 
 
@@ -156,7 +156,7 @@ console.log(testGreeting); // printing the output value of the function.
  *   @variable Datatype: Number `bango3`
  *   @variable Datatype: Number `bango4`
  *   @variable Datatype: Number `bango5`
- *   
+ *
  * Next, create a function named addThenSubtract which takes three parameters: `num1`, `num2`, `num3`.
  *
  *    @param Datatype: Number `num1`
@@ -164,9 +164,9 @@ console.log(testGreeting); // printing the output value of the function.
  *    @param Datatype: Number `num3`
  *    @return Datatype: Number
  *
- * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
+ * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE.
  * Console.log your result.
-*/ 
+*/
 
 
 
@@ -180,9 +180,9 @@ console.log(testGreeting); // printing the output value of the function.
  *    @param Datatype: Number `num3`
  *    @return Datatype: Number
  *
- * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
+ * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE.
  * Console.log your result.
-*/ 
+*/
 
 
 
@@ -201,7 +201,7 @@ console.log(testGreeting); // printing the output value of the function.
 
 
 /*
- * #13 
+ * #13
  * Function - eatFood
  * Create a function named eatFood which takes three parameters: `firstName`, `lastName`, `food`.
  *
@@ -218,7 +218,7 @@ console.log(testGreeting); // printing the output value of the function.
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
-*  gained figure out how to build the necessary functions. Use your google-fu to 
+*  gained figure out how to build the necessary functions. Use your google-fu to
 *  figure out anything you don't know! Ganbatte (good luck)! */
 /************** FIRE ALL CANNONS ***************/
 
@@ -226,7 +226,7 @@ console.log(testGreeting); // printing the output value of the function.
  * #14
  * Function shoeSize
  * Create a function that will take in a parameter named `inches`. This function will convert inches to centimeters(cm).
- * Console.log your result. 
+ * Console.log your result.
 */
 
 
@@ -234,20 +234,20 @@ console.log(testGreeting); // printing the output value of the function.
 /*
  * #15
  * Function allCaps
- * Create a function that will take in a parameter named `str`. 
- * This function will capitalize all the letters in the string. 
+ * Create a function that will take in a parameter named `str`.
+ * This function will capitalize all the letters in the string.
  * Console.log your result.
  * Example input: "believe you can and you're halfway there."
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
- 
+
 
 
 /*
  * #16
  * Function oneCap
- * Create a function that will take in a parameter named `str`. 
- * This function will capitalize only the first letter in the variable phase above. 
+ * Create a function that will take in a parameter named `str`.
+ * This function will capitalize only the first letter in the variable phase above.
  * Console.log your result.
 */
 
@@ -256,8 +256,8 @@ console.log(testGreeting); // printing the output value of the function.
 /*
  * #17
  * Function - verifyDrinkingAge
- * Create a function named verifyDrinkingAge which takes a parameter named `age`. 
- * This function returns a Boolean value, `true` or `false`, depending on 
+ * Create a function named verifyDrinkingAge which takes a parameter named `age`.
+ * This function returns a Boolean value, `true` or `false`, depending on
  * whether `age` is above or below the legal drinking age in the state of Hawaii.
  *
  * Call this function and pass in a number value.
